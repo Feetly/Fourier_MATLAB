@@ -1,0 +1,6 @@
+1) Given a signal x(t), find its even and odd components. Plot x(t) and these components. Choose "t" to be from -20 to +20 in steps of 0.01.
+
+2) Given x(t), find out whether it is even or odd or neither. Choose "t" to be from -10 to +10 in steps of 0.01.
+
+3) Write your own MATLAB Function  - myConv to perform convolution of two finite length discrete time signals. It should take inputs x[n] and h[n], and return the output y[n]. 
+Call this function from a MATLAB script named Test_Conv.m. Plot x, h and y. Compare your results with the in-built MATLAB function conv().

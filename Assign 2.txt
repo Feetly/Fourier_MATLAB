@@ -1,0 +1,11 @@
+1. Generate continuous time signals x(t) and y(t) for t = 0 to 10 in steps of 0.01. Try with periodic as well as non-periodic signals.
+
+2. Use the the "fft" function to take the Fourier Transform of your signals. Let us call it x_fft and y_fft. Try with 4 different FFT sizes - 256-point FFT, 512-point FFT, 1024-point FFT and 2048-point FFT.
+
+Case 1: If the length of your signal is less than FFT size, pad with zeros.
+Case 2: If the length of your signal is less, take only the first N points of your signal for taking the N-size FFT.
+Plot the magnitude and phase of x_fft and y_fft. What do you observe in both the cases?
+
+3. Now use "ifft" to take the inverse Fourier Transform. Did you get back the original signal in both the cases? Justify your answer.
+
+4. Verify linearity, time-shift, convolution, real/imaginary even/odd properties. Do these properties hold in both Case 1 and Case 2? Justify your answers.
